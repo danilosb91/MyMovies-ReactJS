@@ -8,8 +8,6 @@ export default {
     ROSE: "#FF859B",
     WHITE: "#F4EDE8",
 
-    BORDER: "#948F99",
-
     INPUT: "#262529",
   },
 };
