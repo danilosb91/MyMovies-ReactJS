@@ -10,7 +10,7 @@ export function Header() {
     <Container>
       <h1>MyMovies</h1>
       <Search>
-      <Input icon={FiSearch} placeholder="Pesquisar" />
+      <Input icon={FiSearch} placeholder="Pesquisar pelo título" />
 
       </Search>
 

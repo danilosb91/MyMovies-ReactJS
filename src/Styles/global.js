@@ -33,5 +33,26 @@ export default createGlobalStyle`
     button:hover, a:hover{
         filter: brightness(0.9);
     }
+    /* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #ff859b #312e38;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #312e38;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #ff859b;
+    border-radius: 10px;
+    border: 0px none #ffffff;
+  }
 
 `;
