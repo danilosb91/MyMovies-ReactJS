@@ -3,6 +3,7 @@ import { Tags } from "../Tags";
 import { Rating } from "../Rating";
 
 export function Movie({ data, ...rest }) {
+  console.log(data)
   return (
     <Container {...rest}>
       <h1>{data.title} </h1>

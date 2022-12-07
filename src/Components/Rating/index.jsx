@@ -4,7 +4,7 @@ import { AiFillStar, AiOutlineStar } from "react-icons/ai";
 
 export function Rating({rating}) {
     const activeStars = parseInt(rating);
-    console.log(activeStars)
+    
 
   return (
     <Container>
