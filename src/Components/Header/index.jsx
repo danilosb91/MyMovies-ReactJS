@@ -8,6 +8,7 @@ import { Profile } from "../../Components/Profile";
 export function Header() {
   return (
     <Container>
+      
       <h1>MyMovies</h1>
       <Search>
       <Input icon={FiSearch} placeholder="Pesquisar pelo título" />
@@ -18,6 +19,7 @@ export function Header() {
       <Profile>
    
       </Profile>
+
     </Container>
   );
 }

@@ -1,14 +1,16 @@
 import { Button } from "../Button";
-import { Container } from "./styles";
+import { Container, Title } from "./styles";
 import { FiPlus } from "react-icons/fi";
 
 export function Section({ title, children }) {
   return (
     <Container>
-      <h2>{title}</h2>
+      <Title>
+        <h2>{title}</h2>
 
-      <Button icon={FiPlus} title="Adicionar filme"></Button>
-      {children}
+        <Button icon={FiPlus} title="Adicionar filme"></Button>
+      </Title>
+      <div>{children}</div>
     </Container>
   );
 }

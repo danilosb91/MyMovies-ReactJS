@@ -1,11 +1,21 @@
 import styled from "styled-components";
 export const Container = styled.div`
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+  padding: 30px;
+  grid-area: content;
 
-  background: rgba(255, 133, 155, 0.05);
+  /* margin-bottom: 24px; */
+
+  background:#382D32;
+
   border: 1px solid #000000;
   border-radius: 16px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  > h1 {
+ 
+    margin-bottom: 8px;
+  }
 `;
