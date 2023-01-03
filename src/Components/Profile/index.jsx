@@ -7,14 +7,16 @@ export function Profile() {
   return (
     <Container>
       <div>
+      
         <strong>Danilo Barão</strong>
+        
+       
         <span>
           Sair
           <FiLogOut />
         </span>
       </div>
-      {/* <Link to="/home"/> */}
-      <img src="http://github.com/danilosb91.png"/>
+    <img src="http://github.com/danilosb91.png"/>
   
     </Container>
   );
