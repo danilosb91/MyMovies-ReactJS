@@ -7,11 +7,15 @@ import { FiArrowLeft, FiCamera, FiLock, FiMail, FiUser } from "react-icons/fi";
 export function UserProfile() {
   return (
     <Container>
+  
       <header>
+        <div>
         <a href="#">
           <FiArrowLeft />
           Voltar         
         </a>
+        </div>
+ 
       </header>
       <Form>
         <Avatar>
@@ -29,6 +33,7 @@ export function UserProfile() {
 
         <Button title="Salvar" />
       </Form>
+    
     </Container>
   );
 }

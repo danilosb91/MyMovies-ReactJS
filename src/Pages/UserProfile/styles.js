@@ -2,26 +2,35 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   width: 100%;
+  height: 100vh;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 144px 1fr;
+  grid-template-areas:
+    "header"
+    "main";
 
   > header {
+    grid-area: header;
     width: 100%;
-    height: 144px;
-
+    justify-content: center;
     display: flex;
     align-items: center;
 
-
-    padding-left: 144px;
-
-    > a {
-      text-decoration: none;
-      color: ${({ theme }) => theme.COLORS.ROSE};
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-
     background: #382d32;
+
+    div {
+      width: 1120px;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    color: ${({ theme }) => theme.COLORS.ROSE};
+    display: flex;
+    align-items: center;
+    gap: 8px;
   }
 `;
 
