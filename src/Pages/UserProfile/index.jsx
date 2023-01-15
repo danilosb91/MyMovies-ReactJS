@@ -1,21 +1,19 @@
 import { Container, Form, Avatar, Label } from "./styles";
-import { Input } from "../../components/Input";
-import { Button } from "../../components/Button";
-
 import { FiArrowLeft, FiCamera, FiLock, FiMail, FiUser } from "react-icons/fi";
+import { Button } from "../../components/Button";
+import { Input } from "../../components/Input";
+import { Link } from "react-router-dom";
 
 export function UserProfile() {
   return (
     <Container>
-  
       <header>
         <div>
-        <a href="#">
-          <FiArrowLeft />
-          Voltar         
-        </a>
+          <Link to="/">
+            <FiArrowLeft />
+            Voltar
+          </Link>
         </div>
- 
       </header>
       <Form>
         <Avatar>
@@ -33,7 +31,6 @@ export function UserProfile() {
 
         <Button title="Salvar" />
       </Form>
-    
     </Container>
   );
 }

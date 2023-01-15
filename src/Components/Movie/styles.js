@@ -14,6 +14,8 @@ export const Container = styled.div`
   flex-direction: column;
   gap: 10px;
 
+  margin-right: 8px;
+
   > h1 {
  
     margin-bottom: 8px;

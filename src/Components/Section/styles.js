@@ -1,8 +1,7 @@
 import styled from "styled-components";
+
 export const Container = styled.section`
   margin: 28px 0;
-  
-  
 
   > h2 {
     font-weight: 400;
@@ -10,20 +9,23 @@ export const Container = styled.section`
     line-height: 42px;
   }
 
-  >div{
+  > div {
     display: flex;
     gap: 10px;
     flex-direction: column;
     overflow-y: auto;
     height: 70vh;
-  
   }
-
 `;
 
 export const Title = styled.section`
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+
+  justify-content: space-between;
   align-items: center;
   margin-bottom: 32px;
+
+  > div:nth-child(2) {
+    width: 207px;
+  }
 `;

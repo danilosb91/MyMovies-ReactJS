@@ -6,9 +6,12 @@ export function Section({ title, children }) {
   return (
     <Container>
       <Title>
-        <h2>{title}</h2>
-
-        <Button icon={FiPlus} title="Adicionar filme"></Button>
+        <div>
+          <h2>{title}</h2>
+        </div>
+        <div>
+          <Button icon={FiPlus} title="Adicionar filme"></Button>
+        </div>
       </Title>
       <div>{children}</div>
     </Container>
