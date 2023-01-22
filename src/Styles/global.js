@@ -28,6 +28,7 @@ export default createGlobalStyle`
     button, a{
         cursor: pointer;
         transform: filter 0.2s;
+          color: ${({ theme }) => theme.COLORS.ROSE};
     }
 
     button:hover, a:hover{

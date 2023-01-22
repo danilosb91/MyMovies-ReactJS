@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   width: 100%;
-  height: 100vh;
+   height: 100vh;
 
   display: grid;
   grid-template-columns: 1fr;
@@ -24,7 +24,7 @@ export const Container = styled.div`
       width: 1120px;
     }
   }
-
+ 
   a {
     text-decoration: none;
     color: ${({ theme }) => theme.COLORS.ROSE};

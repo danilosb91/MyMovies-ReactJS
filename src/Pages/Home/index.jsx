@@ -2,6 +2,7 @@ import { Container, Content } from "./styles";
 import { Section } from "../../Components/Section";
 import { Header } from "../../Components/Header";
 import { Movie } from "../../Components/Movie";
+import { Button } from "../../Components/Button";
 
 
 export function Home() {
@@ -11,7 +12,7 @@ export function Home() {
           
       <Content>
     <div>
-        <Section title="Meus Filmes">
+        <Section title="Meus Filmes" >
           <Movie
             data={{
               title: "Happy Potteeer",
